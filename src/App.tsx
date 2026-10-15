@@ -123,7 +123,7 @@ export default function App() {
               Correo
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/pytonbebe/HOLA.-"
               target="_blank"
               rel="noreferrer"
               className="btn-press inline-flex border-2 border-ink bg-paper px-5 py-3 font-bold hard-shadow"
