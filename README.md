@@ -1,104 +1,41 @@
-# Anderson Jair Silva López
+# ¡Hola! Soy Anderson 👋
 
-### Jr. Ingeniería de Software con IA · Full Stack Developer
+### Desarrollador Full Stack Jr. | Ingeniería de Software con Inteligencia Artificial
 
-```text
-┌─────────────────────────────────────────────────────────────┐
-│  ● ●                                                        │
-│                                                             │
-│   HELLO. I'M ANDERSON.                                      │
-│                                                             │
-│   Egresado SENATI · Software + Inteligencia Artificial      │
-│   Frontend · Backend · APIs · ML · Docker                   │
-│                                                             │
-│   [ Ver portafolio ]  →  deploy en Vercel                   │
-└─────────────────────────────────────────────────────────────┘
-```
+Egresado de **Ingeniería de Software con Inteligencia Artificial en SENATI**. Me gusta convertir ideas en aplicaciones útiles: desarrollo interfaces web, APIs y soluciones que integran datos e inteligencia artificial.
 
-Portafolio personal con estética **retro / neubrutalista** — bordes gruesos, sombras duras y vibe de sistema operativo clásico.
+Estoy buscando seguir creciendo como desarrollador, aprender de otros equipos y aportar con curiosidad, compromiso y código claro.
 
----
+## Sobre mí
 
-## Quién soy
+- 💻 Desarrollo aplicaciones web **Full Stack** y APIs REST.
+- 🤖 Me interesa aplicar Machine Learning e inteligencia artificial a proyectos reales.
+- 🧰 Trabajo con tecnologías de frontend, backend, bases de datos y Docker.
+- 🤝 Valoro el trabajo en equipo, la comunicación y el aprendizaje continuo.
+- 📍 Perú
 
-Egresado de la carrera técnica superior en **Ingeniería de Software con Inteligencia Artificial** en **SENATI**. Especializado en desarrollo web Full Stack (Frontend y Backend), con experiencia práctica construyendo apps responsivas, APIs RESTful, bases de datos y servicios de IA.
+## Tecnologías
 
-Perfil autodidacta, resolutivo y con foco en trabajo en equipo.
-
----
-
-## Stack
-
-| Área | Tecnologías |
-|------|-------------|
-| **Frontend** | HTML5, CSS3, JavaScript (ES6+), React, Bootstrap, Tailwind CSS |
-| **Backend** | Python (FastAPI, Flask, Django), Node.js, APIs RESTful, JWT |
-| **Datos & Cloud** | PostgreSQL, MySQL, MongoDB, SQLAlchemy, Git, Docker |
-| **IA** | APIs de LLMs, Scikit-Learn, PyTorch, Visión por Computadora |
-| **Soporte** | Hardware, redes LAN, Linux |
-
----
+- **Frontend:** HTML, CSS, JavaScript, React, Bootstrap, Tailwind CSS
+- **Backend:** Python, FastAPI, Flask, Django, Node.js, APIs REST, JWT
+- **Datos y herramientas:** PostgreSQL, MySQL, MongoDB, SQLAlchemy, Git, Docker
+- **Inteligencia artificial:** APIs de LLM, Scikit-learn, PyTorch, visión por computadora
 
 ## Proyectos destacados
 
-### 01 · Plataforma Web Full Stack + IA
-Aplicación web completa con backend en **Python/FastAPI** + **PostgreSQL** y frontend responsivo. Integra un servicio de **clasificación predictiva** con Machine Learning.
+### Plataforma Full Stack con IA
+Aplicación web con backend en Python y FastAPI, PostgreSQL y una interfaz adaptable. Incluye clasificación predictiva con Machine Learning.
 
-### 02 · Dashboard de Gestión y Análisis
-Panel interactivo para inventario y monitoreo en tiempo real. Arquitectura RESTful, gestión de usuarios, Git/GitHub y contenedorización con **Docker**.
+### Dashboard de gestión
+Panel para gestionar inventario y monitorear información, con API REST y contenedorización con Docker.
 
----
+### Portafolio personal
+Este sitio, creado con React, Vite y Tailwind CSS para presentar mi perfil y trabajo.
 
-## Soft skills
+## Conecta conmigo
 
-- Trabajo en equipo y colaboración en entornos de desarrollo  
-- Resolución lógica de problemas bajo presión  
-- Comunicación asertiva y adaptabilidad tecnológica  
-- Resiliencia en entregas exigentes  
+- GitHub: [@pytonbebe](https://github.com/pytonbebe)
 
 ---
 
-## Correr en local
-
-```bash
-npm install
-npm run dev
-```
-
-Abre `http://localhost:5173`
-
-```bash
-npm run build    # build de producción
-npm run preview  # preview del build
-```
-
----
-
-## Deploy en Vercel
-
-1. Sube este repo a GitHub  
-2. En [vercel.com](https://vercel.com) → **New Project** → importa el repo  
-3. Framework: **Vite** (detectado automático)  
-4. Build: `npm run build` · Output: `dist`  
-5. Deploy  
-
-O con CLI:
-
-```bash
-npm i -g vercel
-vercel
-```
-
----
-
-## Contacto
-
-> Portafolio listo para reclutadores · Full Stack + IA  
-
-**Anderson Jair Silva López** · Jr. Software Engineer with AI
-
----
-
-<p align="center">
-  <code>built with React · Vite · Tailwind · vibe neubrutalista</code>
-</p>
+*Gracias por visitar mi perfil. Siempre estoy abierto a aprender, colaborar y conversar sobre desarrollo de software e inteligencia artificial.* 🚀
