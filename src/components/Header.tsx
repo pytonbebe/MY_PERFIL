@@ -10,14 +10,11 @@ export function Header() {
     <header className="border-b-2 border-ink bg-paper">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 md:px-8">
         <a href="#top" className="flex items-center gap-2" aria-label="Inicio">
-          <span className="flex h-9 w-9 items-center justify-center border-2 border-ink bg-paper hard-shadow">
-            <svg viewBox="0 0 24 24" className="h-5 w-5" aria-hidden="true">
-              <rect x="3" y="4" width="18" height="12" fill="none" stroke="#000" strokeWidth="2" />
-              <circle cx="12" cy="10" r="2.5" fill="#000" />
-              <rect x="9" y="16" width="6" height="2" fill="#000" />
-              <rect x="7" y="18" width="10" height="2" fill="#000" />
-            </svg>
-          </span>
+          <img
+            src="/bee-logo.png"
+            alt=""
+            className="h-10 w-10 border-2 border-ink bg-[#ffcc0f] object-contain hard-shadow"
+          />
           <span className="hidden text-sm font-bold tracking-tight sm:inline">anderson.dev</span>
         </a>
 
