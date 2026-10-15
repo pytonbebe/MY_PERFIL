@@ -1,8 +1,8 @@
 const links = [
-  { href: '#projects', label: 'Projects' },
-  { href: '#about', label: 'About' },
-  { href: '#skills', label: 'Skills' },
-  { href: '#contact', label: 'Contact' },
+  { href: '#projects', label: 'Proyectos' },
+  { href: '#about', label: 'Sobre mí' },
+  { href: '#skills', label: 'Habilidades' },
+  { href: '#contact', label: 'Contacto' },
 ]
 
 export function Header() {

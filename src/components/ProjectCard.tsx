@@ -35,7 +35,7 @@ export function ProjectCard({ filename, title, description, tags, href = '#conta
           href={href}
           className="btn-press mt-2 inline-flex w-fit border-2 border-ink px-4 py-2 text-sm font-semibold hard-shadow"
         >
-          View project
+          Ver proyecto
         </a>
       </div>
     </article>

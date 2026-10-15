@@ -34,9 +34,9 @@ export const projects = [
 
 export const skills = {
   Frontend: ['HTML5', 'CSS3', 'JavaScript ES6+', 'React', 'Bootstrap', 'Tailwind CSS'],
-  Backend: ['Python', 'FastAPI', 'Flask', 'Django', 'Node.js', 'JWT', 'REST APIs'],
-  'Datos & Cloud': ['PostgreSQL', 'MySQL', 'MongoDB', 'SQLAlchemy', 'Git', 'Docker'],
-  'Inteligencia Artificial': ['APIs LLM', 'Scikit-Learn', 'PyTorch', 'Visión por Computadora'],
+  Backend: ['Python', 'FastAPI', 'Flask', 'Django', 'Node.js', 'JWT', 'APIs REST'],
+  'Datos y Cloud': ['PostgreSQL', 'MySQL', 'MongoDB', 'SQLAlchemy', 'Git', 'Docker'],
+  'Inteligencia Artificial': ['APIs de LLM', 'Scikit-Learn', 'PyTorch', 'Visión por computadora'],
 }
 
 export const softSkills = [

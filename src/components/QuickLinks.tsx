@@ -1,15 +1,15 @@
 const items = [
-  { href: '#projects', label: 'Projects' },
-  { href: '#about', label: 'About' },
-  { href: '#skills', label: 'Skills' },
-  { href: '#contact', label: 'Contact' },
+  { href: '#projects', label: 'Proyectos' },
+  { href: '#about', label: 'Sobre mí' },
+  { href: '#skills', label: 'Habilidades' },
+  { href: '#contact', label: 'Contacto' },
 ]
 
 export function QuickLinks() {
   return (
     <section className="dot-grid border-y-2 border-ink px-5 py-12 md:px-8">
       <div className="mx-auto max-w-6xl">
-        <h2 className="mb-5 text-2xl font-bold tracking-tight md:text-3xl">Quick links</h2>
+        <h2 className="mb-5 text-2xl font-bold tracking-tight md:text-3xl">Enlaces rápidos</h2>
 
         <div className="grid grid-cols-1 divide-y-2 divide-ink overflow-hidden border-2 border-ink bg-paper hard-shadow sm:grid-cols-2 sm:divide-y-0 lg:grid-cols-4">
           {items.map((item, i) => (

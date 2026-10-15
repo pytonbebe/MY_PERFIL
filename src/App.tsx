@@ -13,7 +13,7 @@ export default function App() {
       <section className="mx-auto grid max-w-6xl items-center gap-10 px-5 py-14 md:grid-cols-2 md:gap-12 md:px-8 md:py-20">
         <div>
           <h1 className="animate-rise text-4xl font-bold leading-[1.05] tracking-tight md:text-5xl lg:text-6xl">
-            Hello. I&apos;m {profile.name}.
+            Hola. Soy {profile.name}.
           </h1>
           <p className="animate-rise-delay-1 mt-5 max-w-md text-base leading-relaxed text-ink/85 md:text-lg">
             {profile.role} · {profile.school}. {profile.summary}
@@ -44,7 +44,7 @@ export default function App() {
       {/* Projects */}
       <section id="projects" className="dot-grid border-b-2 border-ink px-5 py-14 md:px-8 md:py-20">
         <div className="mx-auto max-w-6xl">
-          <h2 className="mb-8 text-3xl font-bold tracking-tight md:mb-10 md:text-4xl">Projects</h2>
+          <h2 className="mb-8 text-3xl font-bold tracking-tight md:mb-10 md:text-4xl">Proyectos</h2>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {projects.map((project) => (
               <ProjectCard key={project.filename} {...project} />
@@ -57,7 +57,7 @@ export default function App() {
       <section id="about" className="border-b-2 border-ink bg-paper px-5 py-14 md:px-8 md:py-20">
         <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-[1.1fr_0.9fr] md:gap-14">
           <div>
-            <h2 className="mb-5 text-3xl font-bold tracking-tight md:text-4xl">About</h2>
+            <h2 className="mb-5 text-3xl font-bold tracking-tight md:text-4xl">Sobre mí</h2>
             <p className="max-w-xl text-base leading-relaxed text-ink/85 md:text-lg">
               Soy <strong>{profile.fullName}</strong>, egresado de la carrera técnica superior en{' '}
               <strong>Ingeniería de Software con Inteligencia Artificial</strong> en SENATI.
@@ -70,7 +70,7 @@ export default function App() {
           </div>
 
           <aside className="border-2 border-ink bg-mist p-5 hard-shadow md:p-6">
-            <h3 className="mb-4 text-lg font-bold">Soft skills</h3>
+            <h3 className="mb-4 text-lg font-bold">Habilidades blandas</h3>
             <ul className="space-y-3">
               {softSkills.map((item) => (
                 <li key={item} className="flex gap-3 text-sm md:text-base">
@@ -86,7 +86,7 @@ export default function App() {
       {/* Skills */}
       <section id="skills" className="dot-grid border-b-2 border-ink px-5 py-14 md:px-8 md:py-20">
         <div className="mx-auto max-w-6xl">
-          <h2 className="mb-8 text-3xl font-bold tracking-tight md:text-4xl">Skills</h2>
+          <h2 className="mb-8 text-3xl font-bold tracking-tight md:text-4xl">Habilidades</h2>
           <div className="grid gap-5 sm:grid-cols-2">
             {Object.entries(skills).map(([group, items]) => (
               <div key={group} className="border-2 border-ink bg-paper p-5 hard-shadow">
@@ -110,7 +110,7 @@ export default function App() {
       {/* Contact */}
       <section id="contact" className="bg-paper px-5 py-14 md:px-8 md:py-20">
         <div className="mx-auto max-w-6xl">
-          <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">Find me</h2>
+          <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">Contacto</h2>
           <p className="mb-8 max-w-lg text-base text-ink/85 md:text-lg">
             ¿Buscas un Jr. Full Stack + IA con ganas de aportar desde el día uno? Hablemos.
           </p>
@@ -120,7 +120,7 @@ export default function App() {
               href={profile.email}
               className="btn-press inline-flex border-2 border-ink bg-paper px-5 py-3 font-bold hard-shadow"
             >
-              Email
+              Correo
             </a>
             <a
               href="https://github.com"
@@ -147,7 +147,7 @@ export default function App() {
           <span>
             © {new Date().getFullYear()} {profile.fullName}
           </span>
-          <span className="text-ink/70">Built with React · Vite · Tailwind</span>
+          <span className="text-ink/70">Hecho con React · Vite · Tailwind</span>
         </div>
       </footer>
     </div>
