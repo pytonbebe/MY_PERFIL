@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --color-ink: #000000;
+  --color-paper: #ffffff;
+  --color-mist: #f0f0f0;
+  --color-steel: #d4d4d4;
+  --shadow-hard: 4px 4px 0 0 #000;
+  --shadow-hard-lg: 6px 6px 0 0 #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+.dot-grid {
+  background-color: #e8e8e8;
+  background-image: radial-gradient(#9a9a9a 1px, transparent 1px);
+  background-size: 12px 12px;
+}
+
+.hard-shadow {
+  box-shadow: var(--shadow-hard);
+}
+
+.hard-shadow-lg {
+  box-shadow: var(--shadow-hard-lg);
+}
+
+.btn-press {
+  transition:
+    transform 120ms ease,
+    box-shadow 120ms ease,
+    background-color 120ms ease,
+    color 120ms ease;
+}
+
+.btn-press:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 0 #000;
+}
+
+.btn-press:active {
+  transform: translate(4px, 4px);
+  box-shadow: 0 0 0 0 #000;
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float-soft {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-rise {
+  animation: rise-in 0.7s ease both;
+}
+
+.animate-rise-delay-1 {
+  animation: rise-in 0.7s ease 0.12s both;
+}
+
+.animate-rise-delay-2 {
+  animation: rise-in 0.7s ease 0.24s both;
+}
+
+.animate-float {
+  animation: float-soft 4.5s ease-in-out infinite;
+}
